@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyp</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <div class="left">
+        <div class="text">
+            <p>Rental</p>
+            <p>from $<sub style="font-size: 28px;">99</sub></p>
+            <p>per night</p>
+        </div>
+        <div class="booking">
+            <form>
+                <label><i class="bi bi-calendar-check"></i> Check In</label>
+                <input type="text" name="" placeholder="DD MM YY" required><br>
+                <label><i class="bi bi-calendar"></i> Check Out</label>
+                <input type="text" name="" placeholder="DD MM YY" required><br>
+                <label><i class="bi bi-person-fill"></i> Adults</label><br>
+                <input type="number" value="1" min="1" max="6" required><br>
+                <label><i class="bi bi-person-x-fill"></i> Kids</label><br>
+                <input type="number" value="0" min="0" max="6" required><br>
+            </form>
+            <button class="mybtn"><i class="bi bi-search"></i> Search Availabilty</button>
+        </div>
+        <div class="navigation">
+            <a href="#"><i class="bi bi-house-fill"></i> Apartment</a>
+            <a href="#"><i class="bi bi-wifi"></i> Subscribe</a>
+            <a href="#"><i class="bi bi-person-lines-fill"></i> Contact</a>
+        </div>
+    </div>
+
+
+
+    <div class="right">
+        <h1 class="apartment">The Apartment</h1>
+        <div class="img-wrapper">
+            <img src="assets/images/1.jpg" alt=""">
+                <div class=" text">
+            <p>Living Room</p>
+        </div>
+    </div>
+
+
+    <div class="small-img">
+        <img src="assets/images/1.jpg" alt="" class="opacity" " onclick=" changeImage(this)">
+    </div>
+
+    <div class="small-img">
+        <img src="assets/images/2.jpg" alt="" " onclick=" changeImage(this)">
+    </div>
+
+    <div class="small-img">
+        <img src="assets/images/3.jpg" alt="" " onclick=" changeImage(this)">
+    </div>
+
+    <div class="small-img">
+        <img src="assets/images/4.jpg" alt="" " onclick=" changeImage(this)">
+    </div>
+
+
+    <div class="space">
+        <h2 style="margin-bottom: 20px;">The Space</h2>
+        <div class="row">
+            <div class="col-6">
+                <p><i class="bi bi-file-person"></i> Max People: 4</p>
+                <p><i class="bi bi-bank2"></i> Bathrooms: 2</p>
+                <p><i class="bi bi-truck-flatbed"></i> Bedrooms: 1</p>
+            </div>
+            <div class="col-6">
+                <p><i class="bi bi-alarm"></i> Check In: After 3<sup>PM</sup></p>
+                <p><i class="bi bi-alarm"></i> Check Out: After 12<sup>PM</sup></p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="amentities">
+        <h2 style="margin-bottom: 20px;">Amentities</h2>
+        <div class="row">
+            <div class="col-6">
+                <p><i class="bi bi-truck-flatbed"></i> Shower</p>
+                <p><i class="bi bi-wifi"></i> Wifi</p>
+                <p><i class="bi bi-tv"></i> Tv</p>
+            </div>
+            <div class="col-6">
+                <p><i class="bi bi-egg-fried"></i> Kitchen</p>
+                <p><i class="bi bi-activity"></i> Heating</p>
+                <p><i class="bi bi-universal-access"></i> Accessible</p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="info">
+        <h2>Extra Info</h2>
+        <p>Our apartment is really clean and we like to keep it that way. Enjoy the lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <span>We accept: <i class="bi bi-credit-card"></i> <i class="bi bi-credit-card-2-back"></i> <i
+                class="bi bi-credit-card-2-back-fill"></i> <i class="bi bi-credit-card-fill"></i></span>
+    </div>
+    <hr>
+
+    <div class="info">
+        <h2>Rules</h2>
+        <p>Our apartment is really clean and we like to keep it that way. Enjoy the lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Subscribe to receive updates on available dates and special offers.</p>
+        <button class="mybtn"><i class="bi bi-search"></i> Search Availabilty</button>
+    </div>
+    <hr>
+
+    <div class="contact">
+        <h2>Contact</h2>
+        <p><i class="bi bi-geo-alt"></i> Chicago, US</p>
+        <p><i class="bi bi-phone"></i> Phone: +00 151515</p>
+        <p><i class="bi bi-envelope"></i> Email: mail@mail.com</p>
+        <p>Questions? Go ahead, ask them:</p>
+        <form>
+            <input type="text" name="" placeholder="Name" required>
+            <input type="email" name="" placeholder="Email" required>
+            <input type="text" placeholder="Message">
+        </form>
+        <button class="mybtn"><i class="bi bi-search"></i> Send A Message</button>
+        <p>Powered by w3.css</p>
+    </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

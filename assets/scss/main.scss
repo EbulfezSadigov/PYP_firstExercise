@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 70%;
+  margin: auto;
+}
+
+.d-none {
+  display: none;
+}
+
+.opacity {
+  opacity: .7;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-6 {
+  width: 49.9%;
+}
+
+.mybtn {
+  cursor: pointer;
+  padding: 8px 20px;
+  background-color: green;
+  border: none;
+  font-size: 15px;
+}
+
+input {
+  margin-block: 8px;
+  padding: 12px;
+  display: block;
+  border: none;
+  border: 1px solid rgb(83, 79, 79);
+  width: 100%;
+}
+
+.mybtn:hover {
+  background-color: darkgrey;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+
+.left {
+  width: 23%;
+  display: inline-block;
+  border: 1px solid gray;
+  position: fixed;
+  z-index: 3;
+  background-color: rgb(212, 210, 210);
+  padding-block: 22px;
+  overflow-y: scroll;
+
+  .text {
+    padding: 16px;
+    margin-bottom: 30px;
+
+    p {
+      font-size: 24px;
+      padding-block: 5px;
+    }
+  }
+
+  .booking {
+    padding: 16px;
+
+    label {
+      font-size: 16px;
+    }
+
+
+
+  }
+}
+
+.navigation {
+  padding-block: 20px;
+
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 16px;
+  }
+
+  a:hover {
+    background-color: gray;
+  }
+}
+
+.right {
+  width: 72%;
+  margin-left: 364px;
+  padding: 20px;
+  border: 1px solid gray;
+
+  .apartment {
+    color: green;
+  }
+
+  .img-wrapper {
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+
+    .text {
+      position: absolute;
+      bottom: 15px;
+      left: 0;
+      color: #fff;
+      background-color: #000;
+      padding: 0.8em 16px;
+    }
+  }
+
+  .small-img {
+    display: inline;
+
+    img {
+      width: 24.5%;
+      cursor: pointer;
+    }
+  }
+
+  .space {
+    margin-top: 20px;
+
+    .col-6 {
+      p {
+        margin: 18px 0px;
+        font-size: 19px;
+      }
+    }
+  }
+
+  .amentities {
+    margin-top: 20px;
+
+    .col-6 {
+      p {
+        margin: 18px 0px;
+        font-size: 19px;
+      }
+    }
+  }
+
+  .info {
+
+    h2 {
+      margin: 18px 0px;
+    }
+
+    p {
+      margin: 10px 0px;
+    }
+  }
+
+  .contact {
+
+    h2 {
+      margin: 18px 0px;
+    }
+
+    p {
+      margin: 10px 0px;
+    }
+  }
+}
